@@ -1,0 +1,36 @@
+.body {
+    background-color: black;
+}
+.common {
+    text-align: center;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#inputimg {
+    vertical-align: top;
+    border: solid 1px black;
+}
+
+#clear {
+    width: 100%;
+    font-size: medium;
+    display: block;
+}
+
+#pred {
+    width: 196px;
+    height: 196px;
+    line-height: 196px;
+    font-size: 160px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: Century;
+}
