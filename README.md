@@ -1,6 +1,4 @@
-# Working with MNIST dataset
-The file 'Digit_recognition.ipynb' contains a notebook about training a CNN to recognise and identify handwritten digits.
+# Working with Neural Networks
+This repository contains code implementing differnet types of neural networks and architecture.
 
-The file 'GAN.ipynb' is about training a GAN on the MNIST dataset and using it to generate new images.
-
-The code is implemented using PyTorch.
+All code is implemented using PyTorch.
