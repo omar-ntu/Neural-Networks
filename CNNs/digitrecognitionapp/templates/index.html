@@ -5,21 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digit Recognition</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
-    <h1>
-        hello world
-    </h1>
-    <div class="box">
-        <canvas id="inputimg" width="196" height="196"></canvas>
-        <button id="clear">Clear</button>
+    <div id="title">
+        <h1>
+            Handwritten digit recognition using a Convolutional Neural Network
+        </h1>
     </div>
-    <div class="box">
-        <div id="pred">0</div>
-        <div id="prob">Probability: </div>
-    </div>
-    <div class="box">
-        <svg id="probGraph" width="250" height="196"></svg>
+    <div class="wrapper">
+        <div class="boxitem">
+            <canvas id="inputimg" width="196" height="196"></canvas>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="boxitem">
+            <div id="pred">0</div>
+            <div id="prob">Probability: </div>
+        </div>
+        <div class="boxitem">
+            <svg id="probGraph" width="250" height="196"></svg>
+        </div>
     </div>
     <script src="{{ url_for('static', filename='javascript/main.js') }}"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
