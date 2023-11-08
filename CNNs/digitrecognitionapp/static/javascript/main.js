@@ -149,6 +149,6 @@ function showResult(res){
         .data(res.probs)
         .transition()
         .duration(300)
-        .style("fill", (d, i) => i == res.pred ? "blue":"green")
+        .style("fill", (d, i) => i == res.pred ? "green":"#ff7f7f")
         .attr("width", (d) => d * 2)
 };
