@@ -8,22 +8,26 @@
     <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
-    <div id="title">
-        <h1>
-            Handwritten digit recognition using a Convolutional Neural Network
-        </h1>
-    </div>
-    <div class="wrapper">
-        <div class="boxitem">
-            <canvas id="inputimg" width="196" height="196"></canvas>
-            <button id="clear">Clear</button>
+    <div class="outer-wrapper">
+        <div class="wrapper">
+            <div id="title">
+                <h1>
+                    Handwritten digit recognition using a Convolutional Neural Network
+                </h1>
+            </div>
         </div>
-        <div class="boxitem">
-            <div id="pred">0</div>
-            <div id="prob">Probability: </div>
-        </div>
-        <div class="boxitem">
-            <svg id="probGraph" width="250" height="196"></svg>
+        <div class="wrapper">
+            <div class="boxitem">
+                <canvas id="inputimg" width="196" height="196"></canvas>
+                <button id="clear">Clear</button>
+            </div>
+            <div class="boxitem">
+                <div id="pred">0</div>
+                <div id="prob">Probability: </div>
+            </div>
+            <div class="boxitem">
+                <svg id="probGraph" width="250" height="196"></svg>
+            </div>
         </div>
     </div>
     <script src="{{ url_for('static', filename='javascript/main.js') }}"></script>
