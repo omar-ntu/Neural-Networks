@@ -16,27 +16,31 @@ body {
     margin: 0;
 }
 
-/* .wrapper {
-    background-color: green;
-    border: 3px solid black;
-    display: flex;
-    height: 10vh;
-    width: 10vw;
-    position: absolute;
-    justify-content: center;
-    align-self: baseline;
+.outer-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
     align-items: center;
-} */
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    margin-bottom: 75px;
+}
 
 #title {
     color: white;
     font-size: large;
     margin: auto;
+    background-color: #3c4142;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;;
 }
 
 .boxitem {
     display: inline-block;
     vertical-align: top;
+    /* background-color: white; */
 }
 
 #inputimg {
@@ -57,9 +61,13 @@ body {
     font-size: 160px;
     border: solid 1px black;
     background-color: white;
-    font-family: Century;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #prob {
     color: white;
+}
+
+#probGraph {
+    background-color: white;
 }
