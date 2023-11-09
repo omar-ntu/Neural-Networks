@@ -18,7 +18,7 @@ function initProbGraph(){
 
     const dummyData = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]; // dummy data for initialize graph
     const margin = { top: 10, right: 10, bottom: 10, left: 20 }
-        , width = 250, height = 196;
+        , width = 196, height = 196;
 
     let yScale = d3.scaleLinear()
         .domain([9, 0])
